@@ -17,4 +17,5 @@ with col1:
 
 with col2:
 	st.subheader("A narrow column with the data")
-	st.write(data)
+	st.write(data) 
+	st.slider('this is a slider', 0, 25, 50, 75, 100)
